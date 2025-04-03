@@ -1,0 +1,2848 @@
+{
+  "runtimes": [
+    {
+      "name": "tsx",
+      "npmName": "tsx",
+      "githubRepo": "esbuild-kit/tsx",
+      "binaryPath": "./node_modules/tsx/dist/cli.js",
+      "performance": {
+        "compiler": "[esbuild](https://esbuild.github.io/)",
+        "diskCache": "[✅ <sup>?</sup>](https://github.com/esbuild-kit/tsx#cache)"
+      },
+      "dx": {
+        "tsRepl": "[✅ <sup>?</sup>](https://tsx.is/usage#repl)",
+        "watchMode": "[✅ <sup>?</sup>](https://tsx.is/watch-mode)",
+        "typeChecking": "❌",
+        "hidesWarnings": "✅",
+        "binaries": "[tsx](https://github.com/esbuild-kit/tsx/blob/3e81d19bf759b512eb74360861f5abeb9d638ef0/package.json#L30)"
+      },
+      "testing": {
+        "os": "[Linux & Windows](https://github.com/esbuild-kit/tsx/blob/3e81d19bf759b512eb74360861f5abeb9d638ef0/.github/workflows/test.yml#L13)",
+        "nodeVersions": "[12.20 ~ 18](https://github.com/esbuild-kit/tsx/blob/3e81d19bf759b512eb74360861f5abeb9d638ef0/tests/index.ts#L12-L25)"
+      },
+      "version": "3.12.3",
+      "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+    },
+    {
+      "name": "@swc/register",
+      "npmName": "@swc/register",
+      "githubRepo": "swc-project/register",
+      "binaryPath": "node_modules/@swc/register/bin/swc-node",
+      "performance": {
+        "compiler": "[SWC](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/package.json#L38)",
+        "diskCache": false
+      },
+      "dx": {
+        "tsRepl": false,
+        "watchMode": false,
+        "typeChecking": false,
+        "hidesWarnings": "-",
+        "binaries": "[swc-node](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/package.json#L54)"
+      },
+      "testing": {
+        "os": "[Linux](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/.github/workflows/test.yml#L6)",
+        "nodeVersions": "[Latest LTS](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/.github/workflows/test.yml#L11)"
+      },
+      "version": "0.1.10",
+      "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+    },
+    {
+      "name": "esbuild-runner",
+      "npmName": "esbuild-runner",
+      "githubRepo": "folke/esbuild-runner",
+      "binaryPath": "./node_modules/esbuild-runner/bin/esr.js",
+      "performance": {
+        "compiler": "[esbuild](https://esbuild.github.io/)",
+        "diskCache": "[✅ <sup>?</sup>](https://github.com/folke/esbuild-runner/blob/9dfb19f8fdead4d56abe4b70fe16bde745fd4d9c/src/cli.ts#L12)"
+      },
+      "dx": {
+        "tsRepl": false,
+        "watchMode": false,
+        "typeChecking": false,
+        "hidesWarnings": "-",
+        "binaries": "[esr](https://github.com/folke/esbuild-runner/blob/949c847e413f5ce32aa2b06eab2a80ea99c221d3/package.json#L21)"
+      },
+      "testing": {
+        "os": "No tests",
+        "nodeVersions": "No tests"
+      },
+      "version": "2.2.2",
+      "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+    },
+    {
+      "name": "jiti",
+      "npmName": "jiti",
+      "githubRepo": "unjs/jiti",
+      "binaryPath": "./node_modules/jiti/bin/jiti.js",
+      "performance": {
+        "compiler": "[Babel](https://github.com/unjs/jiti/blob/main/package.json#L26)",
+        "diskCache": "[✅ <sup>?</sup>](https://github.com/unjs/jiti#cache)"
+      },
+      "dx": {
+        "tsRepl": false,
+        "watchMode": false,
+        "typeChecking": false,
+        "hidesWarnings": "-",
+        "binaries": "[jiti](https://github.com/unjs/jiti/blob/912645967d095b7d1a97829e2013019b948a9761/package.json#L9)"
+      },
+      "testing": {
+        "os": "[Linux & Windows](https://github.com/unjs/jiti/blob/912645967d095b7d1a97829e2013019b948a9761/.github/workflows/ci.yml#L17)",
+        "nodeVersions": "[16](https://github.com/unjs/jiti/blob/912645967d095b7d1a97829e2013019b948a9761/.github/workflows/ci.yml#L18)"
+      },
+      "version": "1.17.0",
+      "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+    },
+    {
+      "name": "sucrase",
+      "npmName": "sucrase",
+      "githubRepo": "alangpierce/sucrase",
+      "binaryPath": "./node_modules/sucrase/bin/sucrase-node",
+      "performance": {
+        "compiler": "[Sucrase (Babel fork)](https://github.com/alangpierce/sucrase#:~:text=sucrase's%20parser%20is%20forked%20from%20babel's%20parser)",
+        "diskCache": false
+      },
+      "dx": {
+        "tsRepl": false,
+        "watchMode": false,
+        "typeChecking": false,
+        "hidesWarnings": "-",
+        "binaries": "[sucrase-node](https://github.com/alangpierce/sucrase/blob/c01f429ddc86e0d819396170981284b8593cdb29/package.json#L10-L13)"
+      },
+      "testing": {
+        "os": "[Linux](https://github.com/alangpierce/sucrase/blob/2a3f723/.github/workflows/build.yml)",
+        "nodeVersions": "[14 & 16](https://github.com/alangpierce/sucrase/blob/2a3f723/.github/workflows/build.yml)"
+      },
+      "version": "3.29.0",
+      "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+    },
+    {
+      "name": "ts-node",
+      "npmName": "ts-node",
+      "githubRepo": "TypeStrong/ts-node",
+      "binaryPath": "node_modules/ts-node/dist/bin-esm.js",
+      "performance": {
+        "compiler": "[TypeScript](https://github.com/TypeStrong/ts-node#compiler) / [SWC](https://github.com/TypeStrong/ts-node#swc-1)",
+        "diskCache": "[❌ <sup>?</sup>](https://github.com/TypeStrong/ts-node/issues/908#issuecomment-1060214613)"
+      },
+      "dx": {
+        "tsRepl": "[✅ <sup>?</sup>](https://github.com/TypeStrong/ts-node#:~:text=Typechecking%20(optional)-,REPL,-Write%20standalone%20scripts)",
+        "watchMode": false,
+        "typeChecking": "✅",
+        "hidesWarnings": "[✅ <sup>?</sup>](https://github.com/TypeStrong/ts-node/blob/599f28bbed574003aea08cffab098a3348475649/src/child/child-require.ts#L19-L24)",
+        "binaries": "[ts-node, ts-node-esm, +4](https://github.com/TypeStrong/ts-node/blob/14323f9d00d5c7051ac09b944c7f423e442145ea/package.json#L38-L43)"
+      },
+      "testing": {
+        "os": "[Linux & Windows](https://github.com/TypeStrong/ts-node/blob/14323f9d00d5c7051ac09b944c7f423e442145ea/.github/workflows/continuous-integration.yml#L52)",
+        "nodeVersions": "[12 ~ 18 + Nightly](https://github.com/TypeStrong/ts-node/blob/14323f9d00d5c7051ac09b944c7f423e442145ea/.github/workflows/continuous-integration.yml#L55-L143)"
+      },
+      "version": "10.9.1",
+      "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+    },
+    {
+      "name": "tsm",
+      "npmName": "tsm",
+      "githubRepo": "lukeed/tsm",
+      "binaryPath": "./node_modules/tsm/bin.js",
+      "performance": {
+        "compiler": "[esbuild](https://esbuild.github.io/)",
+        "diskCache": false
+      },
+      "dx": {
+        "tsRepl": false,
+        "watchMode": false,
+        "typeChecking": false,
+        "hidesWarnings": false,
+        "binaries": "[tsm](https://github.com/lukeed/tsm/blob/d65d835a8a9fc3bb60dae7336eabdd713bfed0fc/package.json#L7)"
+      },
+      "testing": {
+        "os": "[Linux & Windows](https://github.com/lukeed/tsm/blob/d65d835a8a9fc3bb60dae7336eabdd713bfed0fc/.github/workflows/ci.yml#L19)",
+        "nodeVersions": "[12.22.10 ~ 16.14](https://github.com/lukeed/tsm/blob/d65d835a8a9fc3bb60dae7336eabdd713bfed0fc/.github/workflows/ci.yml#L18)"
+      },
+      "version": "2.3.0",
+      "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+    }
+  ],
+  "allTestResults": [
+    {
+      "runtime": {
+        "name": "tsx",
+        "npmName": "tsx",
+        "githubRepo": "esbuild-kit/tsx",
+        "binaryPath": "./node_modules/tsx/dist/cli.js",
+        "performance": {
+          "compiler": "[esbuild](https://esbuild.github.io/)",
+          "diskCache": "[✅ <sup>?</sup>](https://github.com/esbuild-kit/tsx#cache)"
+        },
+        "dx": {
+          "tsRepl": "[✅ <sup>?</sup>](https://tsx.is/usage#repl)",
+          "watchMode": "[✅ <sup>?</sup>](https://tsx.is/watch-mode)",
+          "typeChecking": "❌",
+          "hidesWarnings": "✅",
+          "binaries": "[tsx](https://github.com/esbuild-kit/tsx/blob/3e81d19bf759b512eb74360861f5abeb9d638ef0/package.json#L30)"
+        },
+        "testing": {
+          "os": "[Linux & Windows](https://github.com/esbuild-kit/tsx/blob/3e81d19bf759b512eb74360861f5abeb9d638ef0/.github/workflows/test.yml#L13)",
+          "nodeVersions": "[12.20 ~ 18](https://github.com/esbuild-kit/tsx/blob/3e81d19bf759b512eb74360861f5abeb9d638ef0/tests/index.ts#L12-L25)"
+        },
+        "version": "3.12.3",
+        "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+      },
+      "dx": {
+        "title": "DX",
+        "results": [
+          {
+            "label": "TypeScript REPL",
+            "value": "[✅ <sup>?</sup>](https://tsx.is/usage#repl)"
+          },
+          {
+            "label": "Watch mode",
+            "value": "[✅ <sup>?</sup>](https://tsx.is/watch-mode)"
+          },
+          {
+            "label": "Type checking",
+            "value": "❌"
+          },
+          {
+            "label": "Hides experimental feature warnings",
+            "value": "✅"
+          },
+          {
+            "label": "Binaries",
+            "value": "[tsx](https://github.com/esbuild-kit/tsx/blob/3e81d19bf759b512eb74360861f5abeb9d638ef0/package.json#L30)"
+          }
+        ]
+      },
+      "interop-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "✅"
+          }
+        ]
+      },
+      "interop-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "✅"
+          }
+        ]
+      },
+      "performance": {
+        "title": "Performance",
+        "results": [
+          {
+            "label": "Compiler",
+            "value": "[esbuild](https://esbuild.github.io/)"
+          },
+          {
+            "label": "Disk cache",
+            "value": "[✅ <sup>?</sup>](https://github.com/esbuild-kit/tsx#cache)"
+          }
+        ]
+      },
+      "project-stats": {
+        "title": "Project stats",
+        "results": [
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/tsx?label)](https://www.npmjs.com/package/tsx)"
+          },
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/tsx?label)](https://www.npmjs.com/package/tsx)"
+          },
+          {
+            "label": "Install size",
+            "value": "[![](https://badgen.net/packagephobia/install/tsx?color=blue&label)](https://packagephobia.com/result?p=tsx)"
+          },
+          {
+            "label": "GitHub stars",
+            "value": "[![](https://img.shields.io/github/stars/esbuild-kit/tsx?color=gray&label)](https://github.com/esbuild-kit/tsx/stargazers)"
+          },
+          {
+            "label": "Issues open",
+            "value": "[![](https://img.shields.io/github/issues-raw/esbuild-kit/tsx?color=orange&label)](https://github.com/esbuild-kit/tsx/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)"
+          },
+          {
+            "label": "Issues closed",
+            "value": "[![](https://img.shields.io/github/issues-closed-raw/esbuild-kit/tsx?color=blue&label)](https://github.com/esbuild-kit/tsx/issues?q=is%3Aissue+is%3Aclosed)"
+          },
+          {
+            "label": "Last commit",
+            "value": "![](https://img.shields.io/github/last-commit/esbuild-kit/tsx?label)"
+          }
+        ]
+      },
+      "resolution-import": {
+        "title": "`import()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "✅"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "✅"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "✅"
+          }
+        ]
+      },
+      "resolution-require": {
+        "title": "`require()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "✅"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "✅"
+          },
+          {
+            "label": "`node:` prefix",
+            "value": "✅"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "✅"
+          }
+        ]
+      },
+      "testing": {
+        "title": "Testing",
+        "results": [
+          {
+            "label": "Operating systems",
+            "value": "[Linux & Windows](https://github.com/esbuild-kit/tsx/blob/3e81d19bf759b512eb74360861f5abeb9d638ef0/.github/workflows/test.yml#L13)"
+          },
+          {
+            "label": "Node.js versions",
+            "value": "[12.20 ~ 18](https://github.com/esbuild-kit/tsx/blob/3e81d19bf759b512eb74360861f5abeb9d638ef0/tests/index.ts#L12-L25)"
+          }
+        ]
+      },
+      "transformation-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: import/export syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: `import.meta.url` shim",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "Source maps",
+            "value": "✅"
+          }
+        ]
+      },
+      "transformation-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "Source maps",
+            "value": "❌"
+          }
+        ]
+      }
+    },
+    {
+      "runtime": {
+        "name": "@swc/register",
+        "npmName": "@swc/register",
+        "githubRepo": "swc-project/register",
+        "binaryPath": "node_modules/@swc/register/bin/swc-node",
+        "performance": {
+          "compiler": "[SWC](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/package.json#L38)",
+          "diskCache": false
+        },
+        "dx": {
+          "tsRepl": false,
+          "watchMode": false,
+          "typeChecking": false,
+          "hidesWarnings": "-",
+          "binaries": "[swc-node](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/package.json#L54)"
+        },
+        "testing": {
+          "os": "[Linux](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/.github/workflows/test.yml#L6)",
+          "nodeVersions": "[Latest LTS](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/.github/workflows/test.yml#L11)"
+        },
+        "version": "0.1.10",
+        "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+      },
+      "dx": {
+        "title": "DX",
+        "results": [
+          {
+            "label": "TypeScript REPL",
+            "value": "❌"
+          },
+          {
+            "label": "Watch mode",
+            "value": "❌"
+          },
+          {
+            "label": "Type checking",
+            "value": "❌"
+          },
+          {
+            "label": "Hides experimental feature warnings",
+            "value": "-"
+          },
+          {
+            "label": "Binaries",
+            "value": "[swc-node](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/package.json#L54)"
+          }
+        ]
+      },
+      "interop-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "<span title=\"Error: Cannot require() ES Module ./package-commonjs/interops/esm.js in a cycle.\">⛔️</span>"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "<span title=\"TypeError: Unknown file extension '.ts' for ./package-commonjs/interops/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "<span title=\"TypeError: Unknown file extension '.cts' for ./package-commonjs/interops/cts.cts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "<span title=\"TypeError: Unknown file extension '.mts' for ./package-commonjs/interops/mts.mts\">⛔️</span>"
+          }
+        ]
+      },
+      "interop-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/interops/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.cts' for ./package-module/interops/cts.cts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.mts' for ./package-module/interops/mts.mts\">⛔️</span>"
+          }
+        ]
+      },
+      "performance": {
+        "title": "Performance",
+        "results": [
+          {
+            "label": "Compiler",
+            "value": "[SWC](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/package.json#L38)"
+          },
+          {
+            "label": "Disk cache",
+            "value": "❌"
+          }
+        ]
+      },
+      "project-stats": {
+        "title": "Project stats",
+        "results": [
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/@swc/register?label)](https://www.npmjs.com/package/@swc/register)"
+          },
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/@swc/register?label)](https://www.npmjs.com/package/@swc/register)"
+          },
+          {
+            "label": "Install size",
+            "value": "[![](https://badgen.net/packagephobia/install/@swc/register?color=blue&label)](https://packagephobia.com/result?p=@swc/register)"
+          },
+          {
+            "label": "GitHub stars",
+            "value": "[![](https://img.shields.io/github/stars/swc-project/register?color=gray&label)](https://github.com/swc-project/register/stargazers)"
+          },
+          {
+            "label": "Issues open",
+            "value": "[![](https://img.shields.io/github/issues-raw/swc-project/register?color=orange&label)](https://github.com/swc-project/register/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)"
+          },
+          {
+            "label": "Issues closed",
+            "value": "[![](https://img.shields.io/github/issues-closed-raw/swc-project/register?color=blue&label)](https://github.com/swc-project/register/issues?q=is%3Aissue+is%3Aclosed)"
+          },
+          {
+            "label": "Last commit",
+            "value": "![](https://img.shields.io/github/last-commit/swc-project/register?label)"
+          }
+        ]
+      },
+      "resolution-import": {
+        "title": "`import()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "❌"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "resolution-require": {
+        "title": "`require()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "✅"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`node:` prefix",
+            "value": "✅"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "testing": {
+        "title": "Testing",
+        "results": [
+          {
+            "label": "Operating systems",
+            "value": "[Linux](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/.github/workflows/test.yml#L6)"
+          },
+          {
+            "label": "Node.js versions",
+            "value": "[Latest LTS](https://github.com/swc-project/register/blob/3b17c954386bbbe01100ac00a80ced68d6e10281/.github/workflows/test.yml#L11)"
+          }
+        ]
+      },
+      "transformation-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: import/export syntax",
+            "value": "❌"
+          },
+          {
+            "label": "ESM → CJS: `import.meta.url` shim",
+            "value": "❌"
+          },
+          {
+            "label": "CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "Source maps",
+            "value": "✅"
+          }
+        ]
+      },
+      "transformation-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/transformation/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.cts' for ./package-module/transformation/cjs-scope.cts\">⛔️</span>"
+          },
+          {
+            "label": "No CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.ts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/transformation/cjs-scope.ts\">⛔️</span>"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.mts' for ./package-module/transformation/cjs-scope.mts\">⛔️</span>"
+          },
+          {
+            "label": "Source maps",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/transformation/source-maps.ts\">⛔️</span>"
+          }
+        ]
+      }
+    },
+    {
+      "runtime": {
+        "name": "esbuild-runner",
+        "npmName": "esbuild-runner",
+        "githubRepo": "folke/esbuild-runner",
+        "binaryPath": "./node_modules/esbuild-runner/bin/esr.js",
+        "performance": {
+          "compiler": "[esbuild](https://esbuild.github.io/)",
+          "diskCache": "[✅ <sup>?</sup>](https://github.com/folke/esbuild-runner/blob/9dfb19f8fdead4d56abe4b70fe16bde745fd4d9c/src/cli.ts#L12)"
+        },
+        "dx": {
+          "tsRepl": false,
+          "watchMode": false,
+          "typeChecking": false,
+          "hidesWarnings": "-",
+          "binaries": "[esr](https://github.com/folke/esbuild-runner/blob/949c847e413f5ce32aa2b06eab2a80ea99c221d3/package.json#L21)"
+        },
+        "testing": {
+          "os": "No tests",
+          "nodeVersions": "No tests"
+        },
+        "version": "2.2.2",
+        "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+      },
+      "dx": {
+        "title": "DX",
+        "results": [
+          {
+            "label": "TypeScript REPL",
+            "value": "❌"
+          },
+          {
+            "label": "Watch mode",
+            "value": "❌"
+          },
+          {
+            "label": "Type checking",
+            "value": "❌"
+          },
+          {
+            "label": "Hides experimental feature warnings",
+            "value": "-"
+          },
+          {
+            "label": "Binaries",
+            "value": "[esr](https://github.com/folke/esbuild-runner/blob/949c847e413f5ce32aa2b06eab2a80ea99c221d3/package.json#L21)"
+          }
+        ]
+      },
+      "interop-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "<span title=\"TypeError: Unknown file extension '.ts' for ./package-commonjs/interops/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "<span title=\"TypeError: Unknown file extension '.cts' for ./package-commonjs/interops/cts.cts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "<span title=\"TypeError: Unknown file extension '.mts' for ./package-commonjs/interops/mts.mts\">⛔️</span>"
+          }
+        ]
+      },
+      "interop-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "<span title=\"TypeError: Unknown file extension '.ts' for ./package-module/interops/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "<span title=\"TypeError: Unknown file extension '.cts' for ./package-module/interops/cts.cts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "<span title=\"TypeError: Unknown file extension '.mts' for ./package-module/interops/mts.mts\">⛔️</span>"
+          }
+        ]
+      },
+      "performance": {
+        "title": "Performance",
+        "results": [
+          {
+            "label": "Compiler",
+            "value": "[esbuild](https://esbuild.github.io/)"
+          },
+          {
+            "label": "Disk cache",
+            "value": "[✅ <sup>?</sup>](https://github.com/folke/esbuild-runner/blob/9dfb19f8fdead4d56abe4b70fe16bde745fd4d9c/src/cli.ts#L12)"
+          }
+        ]
+      },
+      "project-stats": {
+        "title": "Project stats",
+        "results": [
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/esbuild-runner?label)](https://www.npmjs.com/package/esbuild-runner)"
+          },
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/esbuild-runner?label)](https://www.npmjs.com/package/esbuild-runner)"
+          },
+          {
+            "label": "Install size",
+            "value": "[![](https://badgen.net/packagephobia/install/esbuild-runner?color=blue&label)](https://packagephobia.com/result?p=esbuild-runner)"
+          },
+          {
+            "label": "GitHub stars",
+            "value": "[![](https://img.shields.io/github/stars/folke/esbuild-runner?color=gray&label)](https://github.com/folke/esbuild-runner/stargazers)"
+          },
+          {
+            "label": "Issues open",
+            "value": "[![](https://img.shields.io/github/issues-raw/folke/esbuild-runner?color=orange&label)](https://github.com/folke/esbuild-runner/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)"
+          },
+          {
+            "label": "Issues closed",
+            "value": "[![](https://img.shields.io/github/issues-closed-raw/folke/esbuild-runner?color=blue&label)](https://github.com/folke/esbuild-runner/issues?q=is%3Aissue+is%3Aclosed)"
+          },
+          {
+            "label": "Last commit",
+            "value": "![](https://img.shields.io/github/last-commit/folke/esbuild-runner?label)"
+          }
+        ]
+      },
+      "resolution-import": {
+        "title": "`import()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "❌"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "resolution-require": {
+        "title": "`require()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "✅"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`node:` prefix",
+            "value": "✅"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "testing": {
+        "title": "Testing",
+        "results": [
+          {
+            "label": "Operating systems",
+            "value": "No tests"
+          },
+          {
+            "label": "Node.js versions",
+            "value": "No tests"
+          }
+        ]
+      },
+      "transformation-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: import/export syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: `import.meta.url` shim",
+            "value": "❌"
+          },
+          {
+            "label": "CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "Source maps",
+            "value": "✅"
+          }
+        ]
+      },
+      "transformation-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "<span title=\"TypeError: Unknown file extension '.ts' for ./package-module/transformation/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "<span title=\"TypeError: Unknown file extension '.cts' for ./package-module/transformation/cjs-scope.cts\">⛔️</span>"
+          },
+          {
+            "label": "No CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.ts` file",
+            "value": "<span title=\"TypeError: Unknown file extension '.ts' for ./package-module/transformation/cjs-scope.ts\">⛔️</span>"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "<span title=\"TypeError: Unknown file extension '.mts' for ./package-module/transformation/cjs-scope.mts\">⛔️</span>"
+          },
+          {
+            "label": "Source maps",
+            "value": "<span title=\"TypeError: Unknown file extension '.ts' for ./package-module/transformation/source-maps.ts\">⛔️</span>"
+          }
+        ]
+      }
+    },
+    {
+      "runtime": {
+        "name": "jiti",
+        "npmName": "jiti",
+        "githubRepo": "unjs/jiti",
+        "binaryPath": "./node_modules/jiti/bin/jiti.js",
+        "performance": {
+          "compiler": "[Babel](https://github.com/unjs/jiti/blob/main/package.json#L26)",
+          "diskCache": "[✅ <sup>?</sup>](https://github.com/unjs/jiti#cache)"
+        },
+        "dx": {
+          "tsRepl": false,
+          "watchMode": false,
+          "typeChecking": false,
+          "hidesWarnings": "-",
+          "binaries": "[jiti](https://github.com/unjs/jiti/blob/912645967d095b7d1a97829e2013019b948a9761/package.json#L9)"
+        },
+        "testing": {
+          "os": "[Linux & Windows](https://github.com/unjs/jiti/blob/912645967d095b7d1a97829e2013019b948a9761/.github/workflows/ci.yml#L17)",
+          "nodeVersions": "[16](https://github.com/unjs/jiti/blob/912645967d095b7d1a97829e2013019b948a9761/.github/workflows/ci.yml#L18)"
+        },
+        "version": "1.17.0",
+        "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+      },
+      "dx": {
+        "title": "DX",
+        "results": [
+          {
+            "label": "TypeScript REPL",
+            "value": "❌"
+          },
+          {
+            "label": "Watch mode",
+            "value": "❌"
+          },
+          {
+            "label": "Type checking",
+            "value": "❌"
+          },
+          {
+            "label": "Hides experimental feature warnings",
+            "value": "-"
+          },
+          {
+            "label": "Binaries",
+            "value": "[jiti](https://github.com/unjs/jiti/blob/912645967d095b7d1a97829e2013019b948a9761/package.json#L9)"
+          }
+        ]
+      },
+      "interop-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "<span title=\"SyntaxError: Unexpected token 'export'\">⛔️</span>"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-commonjs/interops/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.cts' for ./package-commonjs/interops/cts.cts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.mts' for ./package-commonjs/interops/mts.mts\">⛔️</span>"
+          }
+        ]
+      },
+      "interop-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "✅"
+          }
+        ]
+      },
+      "performance": {
+        "title": "Performance",
+        "results": [
+          {
+            "label": "Compiler",
+            "value": "[Babel](https://github.com/unjs/jiti/blob/main/package.json#L26)"
+          },
+          {
+            "label": "Disk cache",
+            "value": "[✅ <sup>?</sup>](https://github.com/unjs/jiti#cache)"
+          }
+        ]
+      },
+      "project-stats": {
+        "title": "Project stats",
+        "results": [
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/jiti?label)](https://www.npmjs.com/package/jiti)"
+          },
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/jiti?label)](https://www.npmjs.com/package/jiti)"
+          },
+          {
+            "label": "Install size",
+            "value": "[![](https://badgen.net/packagephobia/install/jiti?color=blue&label)](https://packagephobia.com/result?p=jiti)"
+          },
+          {
+            "label": "GitHub stars",
+            "value": "[![](https://img.shields.io/github/stars/unjs/jiti?color=gray&label)](https://github.com/unjs/jiti/stargazers)"
+          },
+          {
+            "label": "Issues open",
+            "value": "[![](https://img.shields.io/github/issues-raw/unjs/jiti?color=orange&label)](https://github.com/unjs/jiti/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)"
+          },
+          {
+            "label": "Issues closed",
+            "value": "[![](https://img.shields.io/github/issues-closed-raw/unjs/jiti?color=blue&label)](https://github.com/unjs/jiti/issues?q=is%3Aissue+is%3Aclosed)"
+          },
+          {
+            "label": "Last commit",
+            "value": "![](https://img.shields.io/github/last-commit/unjs/jiti?label)"
+          }
+        ]
+      },
+      "resolution-import": {
+        "title": "`import()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "❌"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "resolution-require": {
+        "title": "`require()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "✅"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`node:` prefix",
+            "value": "✅"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "testing": {
+        "title": "Testing",
+        "results": [
+          {
+            "label": "Operating systems",
+            "value": "[Linux & Windows](https://github.com/unjs/jiti/blob/912645967d095b7d1a97829e2013019b948a9761/.github/workflows/ci.yml#L17)"
+          },
+          {
+            "label": "Node.js versions",
+            "value": "[16](https://github.com/unjs/jiti/blob/912645967d095b7d1a97829e2013019b948a9761/.github/workflows/ci.yml#L18)"
+          }
+        ]
+      },
+      "transformation-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: import/export syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: `import.meta.url` shim",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "Source maps",
+            "value": "❌"
+          }
+        ]
+      },
+      "transformation-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.js` file",
+            "value": "❌"
+          },
+          {
+            "label": "No CJS scope in `.ts` file",
+            "value": "❌"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "Source maps",
+            "value": "❌"
+          }
+        ]
+      }
+    },
+    {
+      "runtime": {
+        "name": "sucrase",
+        "npmName": "sucrase",
+        "githubRepo": "alangpierce/sucrase",
+        "binaryPath": "./node_modules/sucrase/bin/sucrase-node",
+        "performance": {
+          "compiler": "[Sucrase (Babel fork)](https://github.com/alangpierce/sucrase#:~:text=sucrase's%20parser%20is%20forked%20from%20babel's%20parser)",
+          "diskCache": false
+        },
+        "dx": {
+          "tsRepl": false,
+          "watchMode": false,
+          "typeChecking": false,
+          "hidesWarnings": "-",
+          "binaries": "[sucrase-node](https://github.com/alangpierce/sucrase/blob/c01f429ddc86e0d819396170981284b8593cdb29/package.json#L10-L13)"
+        },
+        "testing": {
+          "os": "[Linux](https://github.com/alangpierce/sucrase/blob/2a3f723/.github/workflows/build.yml)",
+          "nodeVersions": "[14 & 16](https://github.com/alangpierce/sucrase/blob/2a3f723/.github/workflows/build.yml)"
+        },
+        "version": "3.29.0",
+        "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+      },
+      "dx": {
+        "title": "DX",
+        "results": [
+          {
+            "label": "TypeScript REPL",
+            "value": "❌"
+          },
+          {
+            "label": "Watch mode",
+            "value": "❌"
+          },
+          {
+            "label": "Type checking",
+            "value": "❌"
+          },
+          {
+            "label": "Hides experimental feature warnings",
+            "value": "-"
+          },
+          {
+            "label": "Binaries",
+            "value": "[sucrase-node](https://github.com/alangpierce/sucrase/blob/c01f429ddc86e0d819396170981284b8593cdb29/package.json#L10-L13)"
+          }
+        ]
+      },
+      "interop-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "❌"
+          }
+        ]
+      },
+      "interop-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/interops/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.cts' for ./package-module/interops/cts.cts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.mts' for ./package-module/interops/mts.mts\">⛔️</span>"
+          }
+        ]
+      },
+      "performance": {
+        "title": "Performance",
+        "results": [
+          {
+            "label": "Compiler",
+            "value": "[Sucrase (Babel fork)](https://github.com/alangpierce/sucrase#:~:text=sucrase's%20parser%20is%20forked%20from%20babel's%20parser)"
+          },
+          {
+            "label": "Disk cache",
+            "value": "❌"
+          }
+        ]
+      },
+      "project-stats": {
+        "title": "Project stats",
+        "results": [
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/sucrase?label)](https://www.npmjs.com/package/sucrase)"
+          },
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/sucrase?label)](https://www.npmjs.com/package/sucrase)"
+          },
+          {
+            "label": "Install size",
+            "value": "[![](https://badgen.net/packagephobia/install/sucrase?color=blue&label)](https://packagephobia.com/result?p=sucrase)"
+          },
+          {
+            "label": "GitHub stars",
+            "value": "[![](https://img.shields.io/github/stars/alangpierce/sucrase?color=gray&label)](https://github.com/alangpierce/sucrase/stargazers)"
+          },
+          {
+            "label": "Issues open",
+            "value": "[![](https://img.shields.io/github/issues-raw/alangpierce/sucrase?color=orange&label)](https://github.com/alangpierce/sucrase/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)"
+          },
+          {
+            "label": "Issues closed",
+            "value": "[![](https://img.shields.io/github/issues-closed-raw/alangpierce/sucrase?color=blue&label)](https://github.com/alangpierce/sucrase/issues?q=is%3Aissue+is%3Aclosed)"
+          },
+          {
+            "label": "Last commit",
+            "value": "![](https://img.shields.io/github/last-commit/alangpierce/sucrase?label)"
+          }
+        ]
+      },
+      "resolution-import": {
+        "title": "`import()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "✅"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "resolution-require": {
+        "title": "`require()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "✅"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`node:` prefix",
+            "value": "✅"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "testing": {
+        "title": "Testing",
+        "results": [
+          {
+            "label": "Operating systems",
+            "value": "[Linux](https://github.com/alangpierce/sucrase/blob/2a3f723/.github/workflows/build.yml)"
+          },
+          {
+            "label": "Node.js versions",
+            "value": "[14 & 16](https://github.com/alangpierce/sucrase/blob/2a3f723/.github/workflows/build.yml)"
+          }
+        ]
+      },
+      "transformation-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: import/export syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: `import.meta.url` shim",
+            "value": "❌"
+          },
+          {
+            "label": "CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "Source maps",
+            "value": "❌"
+          }
+        ]
+      },
+      "transformation-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/transformation/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.cts' for ./package-module/transformation/cjs-scope.cts\">⛔️</span>"
+          },
+          {
+            "label": "No CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.ts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/transformation/cjs-scope.ts\">⛔️</span>"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.mts' for ./package-module/transformation/cjs-scope.mts\">⛔️</span>"
+          },
+          {
+            "label": "Source maps",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/transformation/source-maps.ts\">⛔️</span>"
+          }
+        ]
+      }
+    },
+    {
+      "runtime": {
+        "name": "ts-node",
+        "npmName": "ts-node",
+        "githubRepo": "TypeStrong/ts-node",
+        "binaryPath": "node_modules/ts-node/dist/bin-esm.js",
+        "performance": {
+          "compiler": "[TypeScript](https://github.com/TypeStrong/ts-node#compiler) / [SWC](https://github.com/TypeStrong/ts-node#swc-1)",
+          "diskCache": "[❌ <sup>?</sup>](https://github.com/TypeStrong/ts-node/issues/908#issuecomment-1060214613)"
+        },
+        "dx": {
+          "tsRepl": "[✅ <sup>?</sup>](https://github.com/TypeStrong/ts-node#:~:text=Typechecking%20(optional)-,REPL,-Write%20standalone%20scripts)",
+          "watchMode": false,
+          "typeChecking": "✅",
+          "hidesWarnings": "[✅ <sup>?</sup>](https://github.com/TypeStrong/ts-node/blob/599f28bbed574003aea08cffab098a3348475649/src/child/child-require.ts#L19-L24)",
+          "binaries": "[ts-node, ts-node-esm, +4](https://github.com/TypeStrong/ts-node/blob/14323f9d00d5c7051ac09b944c7f423e442145ea/package.json#L38-L43)"
+        },
+        "testing": {
+          "os": "[Linux & Windows](https://github.com/TypeStrong/ts-node/blob/14323f9d00d5c7051ac09b944c7f423e442145ea/.github/workflows/continuous-integration.yml#L52)",
+          "nodeVersions": "[12 ~ 18 + Nightly](https://github.com/TypeStrong/ts-node/blob/14323f9d00d5c7051ac09b944c7f423e442145ea/.github/workflows/continuous-integration.yml#L55-L143)"
+        },
+        "version": "10.9.1",
+        "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+      },
+      "dx": {
+        "title": "DX",
+        "results": [
+          {
+            "label": "TypeScript REPL",
+            "value": "[✅ <sup>?</sup>](https://github.com/TypeStrong/ts-node#:~:text=Typechecking%20(optional)-,REPL,-Write%20standalone%20scripts)"
+          },
+          {
+            "label": "Watch mode",
+            "value": "❌"
+          },
+          {
+            "label": "Type checking",
+            "value": "✅"
+          },
+          {
+            "label": "Hides experimental feature warnings",
+            "value": "[✅ <sup>?</sup>](https://github.com/TypeStrong/ts-node/blob/599f28bbed574003aea08cffab098a3348475649/src/child/child-require.ts#L19-L24)"
+          },
+          {
+            "label": "Binaries",
+            "value": "[ts-node, ts-node-esm, +4](https://github.com/TypeStrong/ts-node/blob/14323f9d00d5c7051ac09b944c7f423e442145ea/package.json#L38-L43)"
+          }
+        ]
+      },
+      "interop-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "<span title=\"Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: ./package-commonjs/interops/mjs.mjs\">⛔️</span>"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "<span title=\"Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: ./package-commonjs/interops/mts.mts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-commonjs/interops/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.cts' for ./package-commonjs/interops/cts.cts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.mts' for ./package-commonjs/interops/mts.mts\">⛔️</span>"
+          }
+        ]
+      },
+      "interop-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "<span title=\"Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: ./package-module/interops/esm.js\">⛔️</span>"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "<span title=\"Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: ./package-module/interops/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "<span title=\"Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: ./package-module/interops/mjs.mjs\">⛔️</span>"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "<span title=\"Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: ./package-module/interops/mts.mts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/interops/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "<span title=\"Command failed with exit code 1: /home/karfau/.cache/nve/22.14.0/x64/bin/node ./node_modules/ts-node/dist/bin-esm.js ./import-log.js ./interops/cts.cts   # # Fatal error in , line 0 # unreachable code # # # #FailureMessage Object: 0x7ffe328799b0 ----- Native stack trace -----   1: 0x10198f1  [/home/karfau/.cache/nve/22.14.0/x64/bin/node]  2: 0x27c4c4b V8_Fatal(char const*, ...) [/home/karfau/.cache/nve/22.14.0/x64/bin/node]  3: 0x18d604c int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node]  4: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node]  5: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node]  6: 0x18d60ce int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node]  7: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node]  8: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node]  9: 0x18d60ce int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 10: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 11: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 12: 0x18d60ce int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 13: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 14: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 15: 0x18d60ce int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 16: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 17: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 18: 0x18d60ce int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 19: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 20: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 21: 0x18d60ce int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 22: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 23: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 24: 0x18d60ce int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 25: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 26: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 27: 0x18d60ce int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 28: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 29: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 30: 0x18d60ce int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHeapObject>(unsigned char, v8::internal::SlotAccessorForHeapObject) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 31: 0x18d6d81 v8::internal::Deserializer<v8::internal::Isolate>::ReadData(v8::internal::Handle<v8::internal::HeapObject>, int, int) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 32: 0x18d7046 v8::internal::Deserializer<v8::internal::Isolate>::ReadObject(v8::internal::SnapshotSpace) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 33: 0x18d7316 int v8::internal::Deserializer<v8::internal::Isolate>::ReadSingleBytecodeData<v8::internal::SlotAccessorForHandle<v8::internal::Isolate> >(unsigned char, v8::internal::SlotAccessorForHandle<v8::internal::Isolate>) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 34: 0x18d7aff v8::internal::Deserializer<v8::internal::Isolate>::ReadObject() [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 35: 0x18dcb62 v8::internal::ObjectDeserializer::Deserialize() [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 36: 0x18dcd44 v8::internal::ObjectDeserializer::DeserializeSharedFunctionInfo(v8::internal::Isolate*, v8::internal::SerializedCodeData const*, v8::internal::Handle<v8::internal::String>) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 37: 0x18ced72 v8::internal::CodeSerializer::Deserialize(v8::internal::Isolate*, v8::internal::AlignedCachedData*, v8::internal::Handle<v8::internal::String>, v8::internal::ScriptDetails const&, v8::internal::MaybeHandle<v8::internal::Script>) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 38: 0x12f4b7f  [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 39: 0x12f4e50 v8::internal::Compiler::GetSharedFunctionInfoForScriptWithCachedData(v8::internal::Isolate*, v8::internal::Handle<v8::internal::String>, v8::internal::ScriptDetails const&, v8::internal::AlignedCachedData*, v8::ScriptCompiler::CompileOptions, v8::ScriptCompiler::NoCacheReason, v8::internal::NativesFlag, v8::ScriptCompiler::CompilationDetails*) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 40: 0x1246ec7 v8::ScriptCompiler::CompileUnboundInternal(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions, v8::ScriptCompiler::NoCacheReason) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 41: 0xf7d713 node::contextify::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 42: 0x129477a  [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 43: 0x1294aca v8::internal::Builtin_HandleApiConstruct(int, unsigned long*, v8::internal::Isolate*) [/home/karfau/.cache/nve/22.14.0/x64/bin/node] 44: 0x78dcdfeac3b6 \">⛔️</span>"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.mts' for ./package-module/interops/mts.mts\">⛔️</span>"
+          }
+        ]
+      },
+      "performance": {
+        "title": "Performance",
+        "results": [
+          {
+            "label": "Compiler",
+            "value": "[TypeScript](https://github.com/TypeStrong/ts-node#compiler) / [SWC](https://github.com/TypeStrong/ts-node#swc-1)"
+          },
+          {
+            "label": "Disk cache",
+            "value": "[❌ <sup>?</sup>](https://github.com/TypeStrong/ts-node/issues/908#issuecomment-1060214613)"
+          }
+        ]
+      },
+      "project-stats": {
+        "title": "Project stats",
+        "results": [
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/ts-node?label)](https://www.npmjs.com/package/ts-node)"
+          },
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/ts-node?label)](https://www.npmjs.com/package/ts-node)"
+          },
+          {
+            "label": "Install size",
+            "value": "[![](https://badgen.net/packagephobia/install/ts-node?color=blue&label)](https://packagephobia.com/result?p=ts-node)"
+          },
+          {
+            "label": "GitHub stars",
+            "value": "[![](https://img.shields.io/github/stars/TypeStrong/ts-node?color=gray&label)](https://github.com/TypeStrong/ts-node/stargazers)"
+          },
+          {
+            "label": "Issues open",
+            "value": "[![](https://img.shields.io/github/issues-raw/TypeStrong/ts-node?color=orange&label)](https://github.com/TypeStrong/ts-node/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)"
+          },
+          {
+            "label": "Issues closed",
+            "value": "[![](https://img.shields.io/github/issues-closed-raw/TypeStrong/ts-node?color=blue&label)](https://github.com/TypeStrong/ts-node/issues?q=is%3Aissue+is%3Aclosed)"
+          },
+          {
+            "label": "Last commit",
+            "value": "![](https://img.shields.io/github/last-commit/TypeStrong/ts-node?label)"
+          }
+        ]
+      },
+      "resolution-import": {
+        "title": "`import()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "❌"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "resolution-require": {
+        "title": "`require()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "✅"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`node:` prefix",
+            "value": "✅"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "testing": {
+        "title": "Testing",
+        "results": [
+          {
+            "label": "Operating systems",
+            "value": "[Linux & Windows](https://github.com/TypeStrong/ts-node/blob/14323f9d00d5c7051ac09b944c7f423e442145ea/.github/workflows/continuous-integration.yml#L52)"
+          },
+          {
+            "label": "Node.js versions",
+            "value": "[12 ~ 18 + Nightly](https://github.com/TypeStrong/ts-node/blob/14323f9d00d5c7051ac09b944c7f423e442145ea/.github/workflows/continuous-integration.yml#L55-L143)"
+          }
+        ]
+      },
+      "transformation-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-commonjs/transformation/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "ESM → CJS: import/export syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: `import.meta.url` shim",
+            "value": "<span title=\"Error: Cannot require() ES Module ./package-commonjs/transformation/import-meta-url.js in a cycle.\">⛔️</span>"
+          },
+          {
+            "label": "CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.ts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-commonjs/transformation/cjs-scope.ts\">⛔️</span>"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "<span title=\"Command failed with exit code 1: /home/karfau/.cache/nve/22.14.0/x64/bin/node ./node_modules/ts-node/dist/bin-esm.js ./transformation/cjs-scope.cjs\">⛔️</span>"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.cts' for ./package-commonjs/transformation/cjs-scope.cts\">⛔️</span>"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.mts' for ./package-commonjs/transformation/cjs-scope.mts\">⛔️</span>"
+          },
+          {
+            "label": "Source maps",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-commonjs/transformation/source-maps.ts\">⛔️</span>"
+          }
+        ]
+      },
+      "transformation-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/transformation/ts.ts\">⛔️</span>"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.cts' for ./package-module/transformation/cjs-scope.cts\">⛔️</span>"
+          },
+          {
+            "label": "No CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.ts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/transformation/cjs-scope.ts\">⛔️</span>"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.mts' for ./package-module/transformation/cjs-scope.mts\">⛔️</span>"
+          },
+          {
+            "label": "Source maps",
+            "value": "<span title=\"TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension '.ts' for ./package-module/transformation/source-maps.ts\">⛔️</span>"
+          }
+        ]
+      }
+    },
+    {
+      "runtime": {
+        "name": "tsm",
+        "npmName": "tsm",
+        "githubRepo": "lukeed/tsm",
+        "binaryPath": "./node_modules/tsm/bin.js",
+        "performance": {
+          "compiler": "[esbuild](https://esbuild.github.io/)",
+          "diskCache": false
+        },
+        "dx": {
+          "tsRepl": false,
+          "watchMode": false,
+          "typeChecking": false,
+          "hidesWarnings": false,
+          "binaries": "[tsm](https://github.com/lukeed/tsm/blob/d65d835a8a9fc3bb60dae7336eabdd713bfed0fc/package.json#L7)"
+        },
+        "testing": {
+          "os": "[Linux & Windows](https://github.com/lukeed/tsm/blob/d65d835a8a9fc3bb60dae7336eabdd713bfed0fc/.github/workflows/ci.yml#L19)",
+          "nodeVersions": "[12.22.10 ~ 16.14](https://github.com/lukeed/tsm/blob/d65d835a8a9fc3bb60dae7336eabdd713bfed0fc/.github/workflows/ci.yml#L18)"
+        },
+        "version": "2.3.0",
+        "nodePath": "/home/karfau/.cache/nve/22.14.0/x64/bin/node"
+      },
+      "dx": {
+        "title": "DX",
+        "results": [
+          {
+            "label": "TypeScript REPL",
+            "value": "❌"
+          },
+          {
+            "label": "Watch mode",
+            "value": "❌"
+          },
+          {
+            "label": "Type checking",
+            "value": "❌"
+          },
+          {
+            "label": "Hides experimental feature warnings",
+            "value": "❌"
+          },
+          {
+            "label": "Binaries",
+            "value": "[tsm](https://github.com/lukeed/tsm/blob/d65d835a8a9fc3bb60dae7336eabdd713bfed0fc/package.json#L7)"
+          }
+        ]
+      },
+      "interop-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "<span title=\"SyntaxError: Unexpected token 'export'\">⛔️</span>"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "<span title=\"SyntaxError: Unexpected token 'export'\">⛔️</span>"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "✅"
+          }
+        ]
+      },
+      "interop-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "require() `.js` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.ts` file (ESM export)",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "require() `.mjs` file",
+            "value": "❌"
+          },
+          {
+            "label": "require() `.mts` file",
+            "value": "❌"
+          },
+          {
+            "label": "import() `.js` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.ts` file (ESM export)",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "import() `.mts` file",
+            "value": "✅"
+          }
+        ]
+      },
+      "performance": {
+        "title": "Performance",
+        "results": [
+          {
+            "label": "Compiler",
+            "value": "[esbuild](https://esbuild.github.io/)"
+          },
+          {
+            "label": "Disk cache",
+            "value": "❌"
+          }
+        ]
+      },
+      "project-stats": {
+        "title": "Project stats",
+        "results": [
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/tsm?label)](https://www.npmjs.com/package/tsm)"
+          },
+          {
+            "label": "npm downloads",
+            "value": "[![](https://img.shields.io/npm/dm/tsm?label)](https://www.npmjs.com/package/tsm)"
+          },
+          {
+            "label": "Install size",
+            "value": "[![](https://badgen.net/packagephobia/install/tsm?color=blue&label)](https://packagephobia.com/result?p=tsm)"
+          },
+          {
+            "label": "GitHub stars",
+            "value": "[![](https://img.shields.io/github/stars/lukeed/tsm?color=gray&label)](https://github.com/lukeed/tsm/stargazers)"
+          },
+          {
+            "label": "Issues open",
+            "value": "[![](https://img.shields.io/github/issues-raw/lukeed/tsm?color=orange&label)](https://github.com/lukeed/tsm/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)"
+          },
+          {
+            "label": "Issues closed",
+            "value": "[![](https://img.shields.io/github/issues-closed-raw/lukeed/tsm?color=blue&label)](https://github.com/lukeed/tsm/issues?q=is%3Aissue+is%3Aclosed)"
+          },
+          {
+            "label": "Last commit",
+            "value": "![](https://img.shields.io/github/last-commit/lukeed/tsm?label)"
+          }
+        ]
+      },
+      "resolution-import": {
+        "title": "`import()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "✅"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "✅"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "resolution-require": {
+        "title": "`require()`",
+        "results": [
+          {
+            "label": "`.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.ts` file [via `.js`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.ts` file without extension",
+            "value": "❌"
+          },
+          {
+            "label": "`index.ts` file via directory",
+            "value": "❌"
+          },
+          {
+            "label": "`.cts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.cts` file [via `.cjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "`.mts` file [via `.mjs`](https://www.typescriptlang.org/docs/handbook/esm-node.html#new-file-extensions)",
+            "value": "❌"
+          },
+          {
+            "label": "`node:` prefix",
+            "value": "✅"
+          },
+          {
+            "label": "tsconfig.json [paths](https://www.typescriptlang.org/tsconfig#paths)",
+            "value": "❌"
+          }
+        ]
+      },
+      "testing": {
+        "title": "Testing",
+        "results": [
+          {
+            "label": "Operating systems",
+            "value": "[Linux & Windows](https://github.com/lukeed/tsm/blob/d65d835a8a9fc3bb60dae7336eabdd713bfed0fc/.github/workflows/ci.yml#L19)"
+          },
+          {
+            "label": "Node.js versions",
+            "value": "[12.22.10 ~ 16.14](https://github.com/lukeed/tsm/blob/d65d835a8a9fc3bb60dae7336eabdd713bfed0fc/.github/workflows/ci.yml#L18)"
+          }
+        ]
+      },
+      "transformation-commonjs": {
+        "title": "Package type: CommonJS",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "✅"
+          },
+          {
+            "label": "ESM → CJS: import/export syntax",
+            "value": "❌"
+          },
+          {
+            "label": "ESM → CJS: `import.meta.url` shim",
+            "value": "❌"
+          },
+          {
+            "label": "CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.ts` file",
+            "value": "❌"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "❌"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "Source maps",
+            "value": "✅"
+          }
+        ]
+      },
+      "transformation-module": {
+        "title": "Package type: Module",
+        "results": [
+          {
+            "label": "TypeScript syntax",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "CJS scope in `.cts` file",
+            "value": "❌"
+          },
+          {
+            "label": "No CJS scope in `.js` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.ts` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mjs` file",
+            "value": "✅"
+          },
+          {
+            "label": "No CJS scope in `.mts` file",
+            "value": "✅"
+          },
+          {
+            "label": "Source maps",
+            "value": "✅"
+          }
+        ]
+      }
+    }
+  ]
+}

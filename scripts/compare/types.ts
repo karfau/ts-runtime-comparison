@@ -36,6 +36,7 @@ export type RuntimeBinary = (
 ) => Promise<string>;
 
 export type Runtime = RuntimeData & {
+	version: string;
 	run: RuntimeBinary;
 };
 

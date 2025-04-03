@@ -7,6 +7,7 @@ export function createRuntime(
 ): Runtime {
 	return {
 		...runtimeData,
+		version: (process.env[`npm_package_dependencies_${runtimeData.npmName.replace(/[@/-]/g, '_')}`] || 'unknown'),
 		async run(
 			this: RuntimeData,
 			cwd: string,

@@ -19,7 +19,7 @@ function renderTable(
 				rows.set(label, []);
 			}
 
-			rows.get(label).push(value);
+			rows.get(label).push(value.replace(/[\n|]/g, ' '));
 		}
 	}
 
@@ -42,7 +42,7 @@ export async function updateMarkdown(
 
 	mdFile = commentMark(mdFile, {
 		links: runtimes.map(runtime => `[${runtime.name}]: https://github.com/${runtime.githubRepo}`).join('\n'),
-		runtimes: runtimes.map(runtime => `- ${link(runtime.name)}`).join('\n'),
+		runtimes: runtimes.map(runtime => `- ${link(runtime.name)} @ \`${runtime.version}\``).join('\n'),
 		projectStats: renderTable(results, 'project-stats'),
 		transformCommonjs: renderTable(results, 'transformation-commonjs', true),
 		transformModule: renderTable(results, 'transformation-module', true),

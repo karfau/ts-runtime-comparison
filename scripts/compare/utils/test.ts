@@ -25,6 +25,7 @@ type Test = (
 ) => void;
 
 const cwd = process.cwd();
+export const ERROR = '⛔️';
 
 export async function describe(
 	title: string,
@@ -43,7 +44,7 @@ export async function describe(
 					value = result;
 				}
 			} catch (error) {
-				let { message } = error;
+				let { message = 'no error message' } = error;
 				if ('stderr' in error) {
 					const foundError = error.stderr.match(/\w*Error.*:.+/);
 					if (foundError) {
@@ -51,12 +52,8 @@ export async function describe(
 					}
 				}
 
-				if (message) {
-					message = message.replace(/"/g, '\'').replace(cwd, '.');
-					value = `<span title="${message}">⛔️</span>`;
-				} else {
-					value = '⚠️';
-				}
+				message = message.replace(/"/g, '\'').replace(/[\n|]/g, ' ').replace(cwd, '.');
+				value = `<span title="${message}">${ERROR}</span>`;
 			}
 
 			return {

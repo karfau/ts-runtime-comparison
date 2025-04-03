@@ -7,7 +7,7 @@ import { updateMarkdown } from './utils/update-markdown';
 
 (async () => {
 	// Test with 12.20.0 because it doesn't support node: prefix in imports
-	const node = await getNode('12.20.0');
+	const node = await getNode('local');
 	const runtimes = await loadRuntimeBinaries();
 	const tests = await loadTests();
 	const allTestResults = await Promise.all(
